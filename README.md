@@ -8,6 +8,8 @@ These repository is a collection of useful algorithms and data structures built 
 
 ### Overview about this repository
 
+---
+
 * project-euler
   * Problem 1
   * Problem 2
@@ -15,3 +17,10 @@ These repository is a collection of useful algorithms and data structures built 
   
 * algorithms
   * Sieve of Eratosthenes (sieveER.m)
+
+
+---
+
+### Contributing
+
+You can like contribute to this repository. You simply orient on the directory structure.
