@@ -17,7 +17,7 @@ function  y = sieveER(N)
   
   % fills up all prime numbers in vector y
   for i = 1 : 1 : length(tmp)
-    if (tmp(i) != 0)
+    if (tmp(i) ~= 0)
     y = [y tmp(i)];
     endif
   endfor
