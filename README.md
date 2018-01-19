@@ -13,3 +13,5 @@ These repository is a collection of useful algorithms and data structures built 
   * Problem 2
   * Problem 3
   
+* algorithms
+  * Sieve of Eratosthenes (sieveER.m)
