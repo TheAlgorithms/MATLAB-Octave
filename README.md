@@ -1,6 +1,6 @@
 # Octave
 
-These repository is a collection of useful algorithms and data structures built in MATLAB/Octave. In addition you will find solutions from project euler problem sets. 
+These repository is a collection of useful algorithms and data structures built in MATLAB/Octave. In addition you will find solutions from project euler problem sets. The code in this repository is cross-portabel for MATLAB and for Octave.
 
 ### What is Octave?
 
