@@ -8,3 +8,8 @@ These repository is a collection of useful algorithms and data structures built 
 
 ### Overview about this repository
 
+* project-euler
+  * Problem 1
+  * Problem 2
+  * Problem 3
+  
