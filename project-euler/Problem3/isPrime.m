@@ -9,6 +9,8 @@ function y = isPrime(n)
       break
     endif
   endfor
+  
+  % make sure the function recognizes number 0 and 1
   if (n == 0 || n == 1)
     y = false;
   endif
