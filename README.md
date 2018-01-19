@@ -4,7 +4,7 @@ These repository is a collection of useful algorithms and data structures built 
 
 ### What is Octave?
 
-[Octave](https://www.gnu.org/software/octave/octave.pdf) is a high-level interpreter language that is equivalent to the textuelle programming language MATLAB.
+[Octave](https://www.gnu.org/software/octave/) is a free high-level interpreter language that is equivalent to the textuelle programming language MATLAB.
 
 ### Overview about this repository
 
