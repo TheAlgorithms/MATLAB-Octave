@@ -18,6 +18,8 @@ These repository is a collection of useful algorithms and data structures built 
   
 * algorithms
   * Sieve_of_Eratosthenes
+  * crypto
+    * sdbm-hash
 
 
 ---
