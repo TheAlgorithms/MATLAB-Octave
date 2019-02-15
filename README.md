@@ -21,6 +21,10 @@ These repository is a collection of useful algorithms and data structures built 
   * crypto
     * sdbm-hash
 
+* machine-learning
+  * nearest neighbor
+     * brightness (recognizes the brightness of a color)
+
 
 ---
 
