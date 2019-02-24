@@ -20,6 +20,8 @@ These repository is a collection of useful algorithms and data structures built 
   * Sieve_of_Eratosthenes
   * crypto
     * sdbm-hash
+  * searching
+    * counting-sort
 
 * machine-learning
   * nearest neighbor
