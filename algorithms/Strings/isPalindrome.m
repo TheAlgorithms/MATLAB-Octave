@@ -16,4 +16,4 @@ function y = isPalindrome(inputWord)
         end
     end
     
-endfunction
+end
