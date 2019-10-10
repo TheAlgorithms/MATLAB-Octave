@@ -22,11 +22,17 @@ These repository is a collection of useful algorithms and data structures built 
     * sdbm-hash
   * searching
     * counting-sort
-
+  * maths
+    * to_polar
+  * other
+    * tic_tac_toe
+  
 * machine-learning
   * nearest neighbor
      * brightness (recognizes the brightness of a color)
   * k-means clustering
+  
+
 
 ---
 
