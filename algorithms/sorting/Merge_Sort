@@ -1,0 +1,38 @@
+clc
+clear all
+disp(‘This program shows the bubble sort method’)
+disp(‘to put a vector of numbers in an ‘)
+disp(‘ascending order’)
+disp(‘Matlab 2007a’)
+disp(‘Authors : Autar Kaw’)
+disp(‘Last Revised : November 8, 2009’)
+disp(‘http://numericalmethods.eng.usf.edu&#8217;)
+disp(‘  ‘)
+%% INPUTS
+% The vector of numbers
+disp (‘INPUTS’)
+disp(‘Input the vector of numbers’)
+A=[18  7  6  15  4  13];
+disp(A)
+%% SOLUTION
+% Number of entries, n
+n=length(A);
+% making (n-1) passes
+for j=1:1:n-1
+    % comparing each number with the next and swapping
+    for i=1:1:n-1
+    if A(i)>A(i+1);
+        % temp is a variable where the numbers are kept
+        % temporarily for the switch
+        temp=A(i);
+        A(i)=A(i+1);
+        A(i+1)=temp;
+    end
+    end
+end
+
+%% OUTPUT
+disp(‘  ‘)
+disp (‘OUTPUT’)
+disp (‘The ascending matrix is’)
+disp(A)
