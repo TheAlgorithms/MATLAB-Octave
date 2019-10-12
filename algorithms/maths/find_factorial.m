@@ -1,5 +1,5 @@
 %% Factorial
-function [f] = factor(n)
+function [f] = find_factorial(n)
 % calculate the factorial of a positive integer n
 % factorial(n)can be used directly as a default function of Matlab
 
