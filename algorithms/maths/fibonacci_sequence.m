@@ -10,4 +10,3 @@ end
 disp([num2str(n), ' terms of Fibonacci sequence:']);
 disp(f(1:n));
 end
-
