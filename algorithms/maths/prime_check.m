@@ -1,4 +1,4 @@
-function p = primec(n)
+function p = prime_check(n)
 %% Prime Check
 % Tis function checks wheather the input number is prime of not.
 % For this, it checks if the input number is dividable by numbers less than
