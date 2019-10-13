@@ -1,5 +1,5 @@
 function p = jaccard_similarity(A,B)
-%% Prime Check
+%% jaccard similarity
 % This function calculates jaccard similarity index of inputs arrays A and
 % B. The formula to find the Index is (number of entries in both sets) / (number of entries in either set) * 100
 % The higher the percentage, the more similar the two arrays. 
