@@ -26,14 +26,11 @@ These repository is a collection of useful algorithms and data structures built 
     * Palindrome
   * maths
     * to_polar
-    
--arithmetic_analysis
-  
-    - bisection
-    - newton
-    - secant
-    - false position
-    
+  * arithmetic_analysis
+    * bisection
+    * newton
+    * secant
+    * false position
   * other
     * tic_tac_toe
   
