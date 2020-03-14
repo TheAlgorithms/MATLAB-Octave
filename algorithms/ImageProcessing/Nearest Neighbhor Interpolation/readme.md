@@ -1,0 +1,1 @@
+Used for resizing images. It assigns to each location the intensity of its nearest neighbor in original image. Refer [Gonzalez DIP Book](https://www.pearson.com/us/higher-education/program/Gonzalez-Digital-Image-Processing-4th-Edition/PGM241219.html) chapter 1.
