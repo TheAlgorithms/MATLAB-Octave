@@ -28,7 +28,8 @@ The decoding/decryption is done using the following steps:
     2. Input the length of the encoded message (character count).
     3. Retrieve the LSBs of each pixel
     4. Form a bit sequence from these LSBs
-    5. Arrange the bit sequence into a matrix of 8 rows and total_message_bits/8 columns (each column will represent a character of 8 bits, hence 8 rows)
+    5. Arrange the bit sequence into a matrix of 8 rows and total_message_bits/8 columns 
+        (each column will represent a character of 8 bits, hence 8 rows)
        - Convert the binary value to decimal
        - Get the corresponding char from ascii
   
@@ -36,6 +37,6 @@ The decoding/decryption is done using the following steps:
     Finally, display the original message.
     
 References:
-[Concept, TDS article](https://towardsdatascience.com/steganography-hiding-an-image-inside-another-77ca66b2acb1)
-[GFG article on LSB based Image Steganography](https://www.geeksforgeeks.org/lsb-based-image-steganography-using-matlab/)
+[Concept, TDS article](https://towardsdatascience.com/steganography-hiding-an-image-inside-another-77ca66b2acb1), 
+[GFG article on LSB based Image Steganography](https://www.geeksforgeeks.org/lsb-based-image-steganography-using-matlab/), 
 [GFG article on text extraction from image](https://www.geeksforgeeks.org/text-extraction-from-image-using-lsb-based-steganography/)
