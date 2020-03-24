@@ -1,7 +1,7 @@
-# MATLAB / Octave  ![](https://img.shields.io/github/forks/TheAlgorithms/Jupyter?style=social) ![](https://img.shields.io/github/stars/TheAlgorithms/Jupyter?style=social) ![](https://img.shields.io/github/watchers/TheAlgorithms/Jupyter?style=social) <br>
+# MATLAB / Octave  ![](https://img.shields.io/github/forks/TheAlgorithms/MATLAB-Octave?style=social) ![](https://img.shields.io/github/stars/TheAlgorithms/MATLAB-Octave?style=social) ![](https://img.shields.io/github/watchers/TheAlgorithms/MATLAB-Octave?style=social) <br>
 
-![](https://img.shields.io/github/repo-size/TheAlgorithms/Jupyter) ![](https://img.shields.io/github/downloads/TheAlgorithms/Jupyter/total)<br>
-![](https://img.shields.io/github/issues/TheAlgorithms/Jupyter?color=green) ![](https://img.shields.io/github/issues-pr/TheAlgorithms/Jupyter?color=green) ![](https://img.shields.io/github/last-commit/TheAlgorithms/Jupyter) ![](https://img.shields.io/github/contributors/TheAlgorithms/Jupyter)
+![](https://img.shields.io/github/repo-size/TheAlgorithms/MATLAB-Octave) ![](https://img.shields.io/github/downloads/TheAlgorithms/MATLAB-Octave/total) ![](https://img.shields.io/github/license/TheAlgorithms/MATLAB-Octave?color=red)<br>
+![](https://img.shields.io/github/issues/TheAlgorithms/MATLAB-Octave?color=green) ![](https://img.shields.io/github/issues-pr/TheAlgorithms/MATLAB-Octave?color=green) ![](https://img.shields.io/github/last-commit/TheAlgorithms/MATLAB-Octave) ![](https://img.shields.io/github/contributors/TheAlgorithms/MATLAB-Octave)
 
 These repository is a collection of useful algorithms and data structures built in MATLAB/Octave. In addition you will find solutions from project euler problem sets. The code in this repository is cross-portabel for MATLAB and for Octave.
 
@@ -63,7 +63,9 @@ You can run and edit the algorithms or contribute to them using [Gitpod.io](http
 
 ### Contributing
 
-You can like contribute to this repository. You simply orient on the directory structure.
+You can like contribute to this repository. You simply orient on the directory structure.<br>
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for information on how to contribute to Jupyter.
+
 
 ## License
 
