@@ -64,7 +64,7 @@ You can run and edit the algorithms or contribute to them using [Gitpod.io](http
 ### Contributing
 
 You can like contribute to this repository. You simply orient on the directory structure.<br>
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for information on how to contribute to Jupyter.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for information on how to contribute.
 
 
 ## License
