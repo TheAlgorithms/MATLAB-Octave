@@ -1,4 +1,4 @@
-%% Merg sorting Algorithm:
+%% Merge sorting Algorithm:
 function y = merge_sort(x)
 % function to sort vector 'x' with using the merge sort algorithm
 % INPUT: 'x' array
