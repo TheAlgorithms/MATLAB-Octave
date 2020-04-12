@@ -7,7 +7,7 @@ function p = binary_search(A,t)
 % repeat searching for this new range. 
 % If target can be found in array, this function returns its index.
 % If target can not be found in array, it displays "target is not found in
-% aray"
+% array"
 
 array_length = length(A);
 counter = 0;                                      % number of iteration in searching algorithm
