@@ -26,37 +26,49 @@ You can run and edit the algorithms or contribute to them using [Gitpod.io](http
 ---
 
 * project-euler
-  * Problem 1
-  * Problem 2
-  * Problem 3
-  * Problem 4
+  * [Problem 1](https://github.com/TheAlgorithms/MATLAB-Octave/tree/master/project-euler/Problem1)
+  * [Problem 2](https://github.com/TheAlgorithms/MATLAB-Octave/tree/master/project-euler/Problem2)
+  * [Problem 3](https://github.com/TheAlgorithms/MATLAB-Octave/tree/master/project-euler/Problem3)
+  * [Problem 4](https://github.com/TheAlgorithms/MATLAB-Octave/tree/master/project-euler/Problem4)
 
 * algorithms
-  * Sieve_of_Eratosthenes
+  * [Sieve_of_Eratosthenes](https://github.com/TheAlgorithms/MATLAB-Octave/tree/master/algorithms/Sieve_of_Eratosthenes)
   * crypto
-    * sdbm-hash
+    * [sdbm-hash](https://github.com/TheAlgorithms/MATLAB-Octave/tree/master/algorithms/crypto/sdbm-hash)
   * searching
-    * counting-sort
+    * [Binary Search](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/Searching/binary_search.m)
+    * [Linear Search](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/Searching/linear_search.m)
   * Strings
-    * Palindrome
+    * [Palindrome](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/Strings/isPalindrome.m)
   * maths
-    * to_polar
+    * [to_polar](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/maths/to_polar.m)
+    * [Fibonacci Sequence](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/maths/fibonacci_sequence.m)
+    * [Factorial](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/maths/find_factorial.m)
+    * [Highest Common Factor](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/maths/highest_common_factor.m)
+    * [Jaccard Similarity](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/maths/jaccard_similarity.m)
+    * [Prime Check](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/maths/prime_check.m)
+    * [Prime Factorial](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/maths/prime_factorial.m)
   * arithmetic_analysis
-    * bisection
-    * newton
-    * secant
-    * false position
+    * [bisection](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/arithmetic_analysis/bisection.m)
+    * [newton](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/arithmetic_analysis/newton.m)
+    * [secant](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/arithmetic_analysis/secant.m)
+    * [false position](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/arithmetic_analysis/false_position.m)
   * other
-    * tic_tac_toe
+    * [tic_tac_toe](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/other/tic_tac_toe.m)
+  * sorting
+    * [Bubble Sort](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/sorting/bubble_sort.m)
+    * [Counting Sort](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/sorting/counting_sort.m)
+    * [Insertion Sort](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/sorting/insertion_sort.m)
+    * [Merge Sort](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/sorting/merge_sort.m)
   
 
 * machine-learning
   * nearest neighbor
-     * brightness (recognizes the brightness of a color)
-  * k-means clustering
+     * [brightness (recognizes the brightness of a color)](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/machine_learning/Nearest-Neighbor/brightness.m)
+  * [k-means clustering](https://github.com/TheAlgorithms/MATLAB-Octave/tree/master/algorithms/machine_learning/kmeans)
 
 * image-processing
-  * Blob-detection
+  * [Blob-detection](https://github.com/TheAlgorithms/MATLAB-Octave/tree/master/image-processing/Blob-detection-using-Matlab)
 
 
 ---
