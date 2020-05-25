@@ -14,8 +14,10 @@ function Theta = gradientdescent(x, Y, Theta, Alpha, noi)
 
     for i = 1:noi 
 
-        theta_1 = Theta(1) - Alpha * (1 / n) * sum(((x * Theta) - Y) .* x(:, 1)); % Temporary variable to simultaneously update theta_0 but i have used 1 to avoid confusion since indexing in MATLAB/Octave starts from 1.
-    
+        theta_1 = Theta(1) - Alpha * (1 / n) * sum(((x * Theta) - Y) .* x(:, 1)); % Temporary variable to simultaneously update theta_0 but i have used 1 to
+
+                                                                                  % avoid confusion since indexing in MATLAB/Octave starts from 1.
+
         theta_2 = Theta(2) - Alpha * (1 / n) * sum(((x * Theta) - Y) .* x(:, 2)); % Temporary variable to simultaneously update theta_1.
 
         Theta(1) = theta_1; % Assigning first temporary value to update first actual value simultaneously.  
