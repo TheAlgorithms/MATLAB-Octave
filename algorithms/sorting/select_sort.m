@@ -2,7 +2,7 @@
 function arrayToSort = select_sort(arrayToSort)
     for i=1:length(arrayToSort)
 %%smallest element in the unsorted list
-        minimun_index=i;
+        minimum_index=i;
             for j=i+1:length(arrayToSort)
                 if (arrayToSort(j) < arrayToSort(minimun_index))
                     minimun_index=j;
