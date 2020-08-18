@@ -66,6 +66,12 @@ You can run and edit the algorithms or contribute to them using [Gitpod.io](http
   * nearest neighbor
      * [brightness (recognizes the brightness of a color)](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/machine_learning/Nearest-Neighbor/brightness.m)
   * [k-means clustering](https://github.com/TheAlgorithms/MATLAB-Octave/tree/master/algorithms/machine_learning/kmeans)
+  * [Gradient-Descent](https://github.com/TheAlgorithms/MATLAB-Octave/tree/master/algorithms/machine_learning/Gradient-Descent)
+  * [Logistic-Regression](https://github.com/TheAlgorithms/MATLAB-Octave/tree/master/algorithms/machine_learning/Logistic-Regression)
+  * [Linear-Regression](https://github.com/TheAlgorithms/MATLAB-Octave/tree/master/algorithms/machine_learning/Linear-Regression)
+  * [Activation Functions](https://github.com/TheAlgorithms/MATLAB-Octave/tree/master/algorithms/machine_learning/Activation%20Functions)
+  
+ 
 
 * image-processing
   * [Blob-detection](https://github.com/TheAlgorithms/MATLAB-Octave/tree/master/image-processing/Blob-detection-using-Matlab)
