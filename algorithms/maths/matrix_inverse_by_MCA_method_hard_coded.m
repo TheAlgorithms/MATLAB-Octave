@@ -1,3 +1,7 @@
+"""
+A reference link to MCA algorithm: https://demyank.tistory.com/325?category=867920
+"""
+
 x = input('Enter 1 for entering the matrix manually, or 2 for generating random matrix :')
 
 if x == 1
