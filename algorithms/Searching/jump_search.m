@@ -1,37 +1,37 @@
-function found_at = jump_search(arr, value)
+function found_at = jump_search(input_array, search_key)
   % Contributed by   - Harshit Pant, harshitpant83@gmail.com
   
-  % arr       - The input array, should be sorted in ascending order.
-  %             'arr' can contain -ve numbers as well as non-integers.
-  % value     - The value to be searched in the array.
-  % found_at  - The index at which 'value' is found in 'arr'.
-  %             -1 is returned if 'value' is not found in 'arr'.
+  % input_array - The input array, should be sorted in ascending order.
+  %               'input_array' can contain -ve numbers as well as non-integers.
+  % search_key  - The value to be searched in the 'input_array'.
+  % found_at    - The index at which 'search_key' is found in 'input_array'.
+  %               -1 is returned if 'search_key' is not found in 'input_array'.
 
-  n = length(arr);
+  array_length = length(input_array);
   found_at = -1; 
   
-  % 'm' holds the block size
-  m = sqrt(n); 
-  m = round(m); 
+  block_size = sqrt(array_length); 
+  block_size = round(block_size); 
+  
   low = 1;
-  high = 1 + m;
+  high = 1 + block_size;
 
-  while arr(min(high, n)) < value
+  while input_array(min(high, array_length)) < search_key
       low = high;
-      high = high + m;
-      if low >= n
+      high = high + block_size;
+      if low >= array_length
           return;
       endif;
   endwhile;
 
-  while arr(low) < value
+  while input_array(low) < search_key
       low = low + 1;
-      if low > min(high, n)
+      if low > min(high, array_length)
           return;
       endif;
   endwhile;
 
-  if arr(low) == value
+  if input_array(low) == search_key
       found_at = low;
   endif;
 
