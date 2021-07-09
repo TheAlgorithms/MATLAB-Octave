@@ -8,14 +8,13 @@ function found_at = jump_search(arr, value)
   %             -1 is returned if 'value' is not found in 'arr'.
 
   n = length(arr);
-
+  found_at = -1; 
+  
   % 'm' holds the block size
   m = sqrt(n); 
   m = round(m); 
   low = 1;
   high = 1 + m;
-
-  found_at = -1; 
 
   while arr(min(high, n)) < value
       low = high;
