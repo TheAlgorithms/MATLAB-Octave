@@ -85,6 +85,7 @@
       * [Parabola](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/Particle_Swarm_Optimization/Polynomial%20Minimization/Parabola.m)
   * Searching
     * [Binary Search](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/Searching/binary_search.m)
+    * [Jump Search](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/Searching/jump_search.m)
     * [Linear Search](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/Searching/linear_search.m)
     * [Random Search](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/Searching/random_search.m)
     * [Ternarysearch](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/Searching/ternarySearch.m)
