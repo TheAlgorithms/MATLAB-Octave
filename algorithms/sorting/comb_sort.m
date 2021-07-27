@@ -1,7 +1,7 @@
 %This function sorts the input array in ascending order using the Comb Sort algorithm
 %For details, refer https://en.wikipedia.org/wiki/Comb_sort
 
-function y = combSort(array)
+function y = comb_sort(array)
             
 len = length(array);
 k = len;
@@ -21,7 +21,7 @@ while ((k > 1) || (isSwapped == true))
         i = i + 1;
     end
 end
-
+y = array;
 end
 
 function array = swap(array,i,j)
