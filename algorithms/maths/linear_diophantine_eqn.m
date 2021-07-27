@@ -4,7 +4,7 @@
 %Used in programming to find the exact solution exists or not.
 
 function retval = linear_diophantine_eqn (a,b,c)
-   if c % gcd(a,b)==0
+   if mod(c,gcd(a,b))==0
      retval=true;            % 1 represent yes it exist
    else
      retval= false;          %  0 represent no it doesn't exist
