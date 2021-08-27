@@ -16,7 +16,7 @@ numIter=100;
 ObjFun=@(x) sum(x.^2);
 for i=1:numIter
     candidate=10*rand(dim,popsize)-5;
-    best,=min(feval(ObjFun,candidate));
+    best=min(feval(ObjFun,candidate));
     if best <= ftarget
         break;
     end
