@@ -14,7 +14,7 @@ counter = 0;                                      % number of iteration in searc
 L_SearchRange = 1;                                %initial search range
 R_SearchRange = array_length;
 
-while counter <= floor(log(array_length))+1       %maximum iteration needed to find the target
+while counter <= floor(log2(array_length))+1       %maximum iteration needed to find the target
 mid = (L_SearchRange + R_SearchRange)/2;
 
 if t == A(floor(mid))
@@ -31,7 +31,7 @@ else if t > A(floor(mid))
  counter = counter+1; 
 end
 end
-if counter > floor(log(array_length))+1
+if counter > floor(log2(array_length))+1
     disp('target is not found in aray')
 end
 end
