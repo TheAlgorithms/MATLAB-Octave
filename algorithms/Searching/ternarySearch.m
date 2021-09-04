@@ -8,28 +8,26 @@
 
 
 % function for ternary search
-function [numComparisons, returnindex ] = ternarySearch( array, target, firstIndex , lastIndex)
-numComparisons = 0;
-lastIndex = length(array);
-firstIndex = 1;
+function returnindex = ternarySearch( array, target, firstIndex , lastIndex)
+if(lastIndex >= firstIndex)
+    mid1 = firstIndex + fix((lastIndex - firstIndex) / 3);    %calculating mid1
+    mid2 = lastIndex - fix((lastIndex - firstIndex)/ 3);      %calculating mid2
 
-mid1 = firstIndex + (lastIndex - 1) / 3;    %calculating mid1
-mid2 = lastIndex - (lastIndex - 1)/ 3;      %calculating mid1
-xmid1 = 0;
-xmid2 = 0;
+    if(array(mid1)== target)
+        returnindex = mid1;
 
-if(array(mid1)== target)
-    xmid1 = mid1;
-    
-elseif(array(mid2) == target)
-    xmid2 = mid2;
-elseif(target > array(mid1))
+    elseif(array(mid2) == target)
+        returnindex = mid2;
+    elseif(target < array(mid1))
 
-    ternarySearch(array,mid2+1,lastIndex, target);
-elseif(target < array(mid1))
-    ternarySearch(array,firstIndex,mid1 - 1, target);
+        returnindex = ternarySearch(array,target,firstIndex, mid1-1);
+    elseif(target > array(mid2))
+        returnindex = ternarySearch(array,target,mid2 + 1, lastIndex);
+    else
+
+        returnindex = ternarySearch(array,target,mid1+1,mid2-1);
+    end
 else
-  
-    ternarySearch(array,mid1+1,mid2-1,target);
+    returnindex = -1;
 end
 end
