@@ -3,23 +3,18 @@
 function  y = sieveER(N)
   % precondition
   assert(N >= 2,"N must be >= 2")
-  tmp = 2:1:N; % all numbers from 2 up to N
-  y = []; % the answer
+  tmp = [false,true(1,N-1)]; % indexed by all numbers from 2 up to N
   
-  % labels all composite number with 0
-  for i = 1 : 1 : length(tmp)
-    for j = i+1 : 1 : length(tmp)
-      if (mod(tmp(j),tmp(i)) == 0)
-        tmp(j) = 0;
-      endif
-    endfor
+  % labels all composite number with false
+  for i = 2 : 1 : sqrt(N)
+    if (tmp(i))
+      for j = i^2 : i : N
+        tmp(j) = false;
+      endfor
+    endif
   endfor
   
   % fills up all prime numbers in vector y
-  for i = 1 : 1 : length(tmp)
-    if (tmp(i) ~= 0)
-    y = [y tmp(i)];
-    endif
-  endfor
+  y = find(tmp);
   
 endfunction
