@@ -3,11 +3,10 @@ function ans = counting_sort(arr, k)
   % INPUT: array of integers between 1 and k
   % OUTPUT: sorted array
 
-  ans = []; % result array (sorted array)
+  ans = zeros(size(arr)); % result array (sorted array)
 
 
-  C = zeros(k); % array for counting
-  C = C(1,:);
+  C = zeros(1,k); % array for counting
 
   % counts the occurs of element i
   for i = 1 : length(arr)
@@ -15,10 +14,8 @@ function ans = counting_sort(arr, k)
   endfor
 
   % adress calculation
-  for j = 1 : k
-    if j > 1
-      C(j) += C(j-1);
-    endif
+  for j = 2 : k
+    C(j) += C(j-1);
   endfor
 
   for m = length(arr) : -1 : 1
