@@ -56,6 +56,7 @@ You can run and edit the algorithms or contribute to them using [Gitpod.io](http
   * other
     * [tic_tac_toe](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/other/tic_tac_toe.m)
   * sorting
+    * [Bogo Sort](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/sorting/bogo_sort.m)
     * [Bubble Sort](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/sorting/bubble_sort.m)
     * [Counting Sort](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/sorting/counting_sort.m)
     * [Insertion Sort](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/algorithms/sorting/insertion_sort.m)
