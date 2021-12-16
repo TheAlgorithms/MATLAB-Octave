@@ -5,10 +5,8 @@ for number1 = 999 : -1 : 100
     product = number1 * number2;  % builds the new product
     
     % make sure product is a palindrome number.
-    if (isPalindromeNumber(product))
-      if (product > maxPalindrome)
-        maxPalindrome = product;
-      endif
+    if (product > maxPalindrome && isPalindromeNumber(product))
+      maxPalindrome = product;
     endif
   endfor
 endfor
