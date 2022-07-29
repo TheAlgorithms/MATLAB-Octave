@@ -163,7 +163,6 @@
     * [Fib](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/project-euler/Problem2/fib.m)
     * [Solv](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/project-euler/Problem2/solv.m)
   * Problem3
-    * [Isprime](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/project-euler/Problem3/isPrime.m)
     * [Pfz](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/project-euler/Problem3/pfz.m)
     * [Solv](https://github.com/TheAlgorithms/MATLAB-Octave/blob/master/project-euler/Problem3/solv.m)
   * Problem4

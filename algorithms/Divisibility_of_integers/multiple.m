@@ -6,7 +6,7 @@ function ans = multiple(x, m)
   % OUTPUT: Is a boolean value 0 or 1.
   % THROWS: Throws a assertion error if the inputs invalid.
 
-  assert((isnumeric(x) && isnumeric(m)), "The inputs must be integers")
+  assert((x == round(x) && m == round(m)), "The inputs must be integers")
 
   if m == 0 
     ans = (x == 0);
