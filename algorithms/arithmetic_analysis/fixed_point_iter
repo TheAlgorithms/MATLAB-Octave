@@ -1,4 +1,4 @@
-function cobweb(f,a, b, x0, N)
+function fpi(f,a, b, x0, N)
   
 % generate the cobweb diagram associated with
 % the iteration: x_{n+1}=f(x_n).
@@ -13,9 +13,7 @@ figure
 hold on;
 title('fixed point iteration')
 plot(x,y,'k'); % plot the function
-%pause
-plot(x,x,'r'); % plot the straight line
-%pause
+plot(x,x,'r'); % plot straight line
 x(1)=x0; % plot orbit starting at x0
 for i=1:N
     x(i+1)=f(x(i));
